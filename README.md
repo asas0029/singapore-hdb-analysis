@@ -1,2 +1,5 @@
-# singapore-hdb-analysis
-Analysis of Singapore HDB resale prices
+# Singapore HDB Resale Price
+
+## Overview
+
+This p
