@@ -49,12 +49,12 @@ The final analysis is summarized in an interactive Power BI dashboard.
 ### Repository Structure:
 
 singapore-hdb-analysis/
-├── Singapore_HDB_Analysis.ipynb           # Main analysis notebook
-├── ResaleflatpricesbasedonregistrationdatefromJan2017onwards.csv  # Dataset
-├── images/                                # Visualization images
-├── SG_HDB_RESALE.pbix                     # Power BI file
-└── README.md                              # Documentation
-
+├── Singapore_HDB_Analysis.ipynb           # Main analysis notebook  
+├── ResaleflatpricesbasedonregistrationdatefromJan2017onwards.csv  # Dataset  
+├── images/                                # Visualization images  
+├── SG_HDB_RESALE.pbix                     # Power BI file  
+└── README.md                              # Documentation  
+  
 ### How to Run
 1. Clone the repository
 git clone [repository-url]
