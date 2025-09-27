@@ -7,7 +7,7 @@ This project provides an in-depth analysis of 216,375 HDB resale transactions in
 ### Technical Implementation
 * ****Languages****: Python, SQL
 * ****Libraries****: pandas (Data Manipulation), matplotlib (Static Visualization), sqlite3 (In-memory Database)
-* ****Tools****: Jupyter Notebook, Power BI (Static Visualization)
+* ****Tools****: Jupyter Notebook, Power BI
 
 ### Problem Statement
 HDB resale prices in Singapore vary significantly based on factors like location, floor level, and flat type.   
@@ -36,6 +36,31 @@ This project aims to answer three core questions:
 * ****Highest Price Per Sqm****: The Central Area commands the highest price per square meter at $8,166/sqm, followed by Queenstown ($7,497/sqm) and Bukit Merah ($7,191/sqm).
 * ****Highest-Priced Transaction****: The most expensive flat in the dataset was a 5-room loft unit in Queenstown, sold for $1.66M.
 
-Visualization Dashboard (Power BI)
+### Visualization Dashboard (Power BI)
 
-The final analysis is summarized in an interactive Power BI dashboard. Click the image below to explore the live dashboard on the web.
+![Price by Town](images/price_by_town.png)
+![Floor Premium Analysis](images/price_by_floor.png)
+![Summary Statistics](images/summary_table.png)
+
+[SG_HDB_RESALE - Power BI](https://app.powerbi.com/groups/me/reports/31425555-0594-497b-8f95-94db07df2f21/2567009a889da8942348?experience=power-bi)
+
+The final analysis is summarized in an interactive Power BI dashboard. 
+
+### Repository Structure:
+
+singapore-hdb-analysis/
+├── Singapore_HDB_Analysis.ipynb           # Main analysis notebook
+├── ResaleflatpricesbasedonregistrationdatefromJan2017onwards.csv  # Dataset
+├── images/                                # Visualization images
+├── SG_HDB_RESALE.pbix                     # Power BI file
+└── README.md                              # Documentation
+
+### How to Run
+1. Clone the repository
+git clone [repository-url]
+
+2. Install dependencies
+pip install pandas matplotlib jupyter
+
+3. Run Jupyter Notebook
+jupyter notebook Singapore_HDB_Analysis.ipynb
